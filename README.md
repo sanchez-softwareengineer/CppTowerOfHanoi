@@ -1,21 +1,20 @@
 # CppTowerOfHanoi
 
-## Overview
-This repository contains a C++ implementation of the **Tower of Hanoi** problem, a classic algorithmic puzzle that demonstrates the power of recursion. The goal is to move all disks from the source peg to the destination peg, following specific rules.
+## Description
+TowerOfHanoi is a C++ application that solves the Tower of Hanoi puzzle using a recursive algorithm. This project demonstrates key programming concepts including recursion, problem-solving techniques, and command-line input handling. The program calculates and displays the steps required to solve the puzzle based on the number of disks provided.
 
 ## Features
-- Recursive solution to the Tower of Hanoi problem
-- Customizable number of disks
-- Outputs step-by-step instructions to solve the puzzle
+- Recursive Solution: Implements the Tower of Hanoi algorithm to solve the puzzle.
+- Command-Line Interface: Allows users to input the number of disks and view the solution steps.
+- Step-by-Step Output: Displays each move required to transfer disks from the source peg to the destination peg.
 
-## How It Works
-The program solves the Tower of Hanoi problem by recursively moving `n-1` disks to an intermediate peg, moving the nth disk to the destination peg, and then moving the `n-1` disks to the destination peg.
+## Getting Started
 
-### Rules:
-1. Only one disk can be moved at a time.
-2. A disk can only be placed on top of a larger disk or on an empty peg.
-3. All disks start on the source peg and must be moved to the destination peg.
+### Prerequisites
+- Microsoft Visual Studio 2022 (or another C++ IDE)
+- Git
 
-## Installation
-1. Clone this repository:
-   ```bash git clone https://github.com/sanchez-softwareengineer/CppTowerOfHanoi.git
+### Installation
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sanchez-softwareengineer/CppTowerOfHanoi.git
